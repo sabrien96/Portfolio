@@ -403,12 +403,11 @@ section {
 }
 .card-header {
   background-color: #13325f;
-  h5 a em{
+  h5 a em {
     color: white;
     &:hover {
       text-decoration: underline;
     }
-   
   }
 }
 .card-footer {
