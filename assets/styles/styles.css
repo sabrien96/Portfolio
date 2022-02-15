@@ -217,7 +217,7 @@ h6 {
 #home {
   width: 100%;
   height: 100vh;
-  background: url("../images/lap.png") top center;
+  background: url("../images/5065781.jpg") top center;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -240,7 +240,7 @@ h6 {
 }
 
 #home h1 {
-  margin: 0 0 10px 0;
+  margin: 0 0 10px 20px;
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
@@ -250,6 +250,7 @@ h6 {
 #home p {
   color: #fff;
   margin-bottom: 50px;
+  margin-left: 50px;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
 }
@@ -440,30 +441,21 @@ section {
   z-index: 1;
 }
 
-.projects .card::before {
-  content: "";
-  background: rgba(255, 255, 255, 0.5);
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  transition: all ease-in-out 0.3s;
-  z-index: 2;
-  opacity: 0;
+.card-header {
+  background-color: #13325f;
+}
+.card-header h5 a em {
+  color: white;
+}
+.card-header h5 a em:hover {
+  text-decoration: underline;
 }
 
-.projects .card:hover .projects-links {
-  opacity: 1;
-  bottom: 0;
+.card-footer a {
+  color: #13325f;
 }
-
-.projects .card:hover::before {
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  opacity: 1;
+.card-footer a:hover {
+  color: #149ddd;
 }
 
 /*--------------------------------------------------------------
