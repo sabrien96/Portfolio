@@ -222,6 +222,8 @@ h6 {
   font-weight: 700;
   line-height: 56px;
   color: #fff;
+  // color: #149ddd;
+  // color: #173b6c;
 }
 #home p {
   color: #fff;
@@ -230,12 +232,6 @@ h6 {
   font-size: 26px;
   font-family: "Poppins", sans-serif;
 }
-// #home p span {
-//   color: #fff;
-//   padding-bottom: 4px;
-//   letter-spacing: 1px;
-//   border-bottom: 3px solid #149ddd;
-// }
 @media (min-width: 1024px) {
   #home {
     background-attachment: fixed;
@@ -243,8 +239,12 @@ h6 {
 }
 @media (max-width: 768px) {
   #home h1 {
-    font-size: 28px;
+    font-size: 20px;
     line-height: 36px;
+  }
+  #home p {
+    font-size: 15px;
+    // line-height: 36px;
   }
   #home h2 {
     font-size: 18px;
@@ -327,6 +327,11 @@ section {
   background: none;
   border-radius: 0;
 }
+.skills .container .section-title p {
+  font-weight:600;
+  // font-size: 26px;
+  color: #173b6c !important;
+}
 // // span
 .skills .progress .skill {
   padding: 10px;
@@ -408,6 +413,9 @@ section {
     &:hover {
       text-decoration: underline;
     }
+  }
+  p{
+    
   }
 }
 .card-footer {

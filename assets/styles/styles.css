@@ -262,8 +262,12 @@ h6 {
 }
 @media (max-width: 768px) {
   #home h1 {
-    font-size: 28px;
+    font-size: 20px;
     line-height: 36px;
+  }
+
+  #home p {
+    font-size: 15px;
   }
 
   #home h2 {
@@ -358,6 +362,11 @@ section {
   border-radius: 0;
 }
 
+.skills .container .section-title p {
+  font-weight: 600;
+  color: #173b6c !important;
+}
+
 .skills .progress .skill {
   padding: 10px;
   margin: 0 0 6px 0;
@@ -450,7 +459,6 @@ section {
 .card-header h5 a em:hover {
   text-decoration: underline;
 }
-
 .card-footer a {
   color: #13325f;
 }
